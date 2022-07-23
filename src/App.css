@@ -1,3 +1,61 @@
-.App {
+body {
+  background-image: url('./images/background.png');
+  color: white;
   text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+  width: 100%;
+}
+
+.container-solar-system, .container-missions {
+  background-color: rgba(0, 0, 0, 0.568);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 70px;
+  padding-bottom: 20px;
+  width: 90%;
+}
+
+img {
+  width: 200px;
+}
+
+.mission-card {
+  border: 1px solid rgba(255, 255, 255, 0.192);
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  justify-content: center;
+  margin: 10px;
+  width: 300px;
+}
+
+.mission-name {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.192);
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0;
+  padding: 10px 0;
+  width: 100%;
+}
+
+/* .mission-name:hover {
+  background-color: rgb(250, 0, 0);
+  transition: 0.5s;
+} */
+
+.mission-info {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
 }
