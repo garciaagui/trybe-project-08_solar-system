@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import SolarSystem from './components/SolarSystem';
-import Missions from './components/Missions';
+import PlanetDetails from './components/PlanetDetails';
 import './App.css';
 
 class App extends React.Component {
@@ -29,7 +29,7 @@ class App extends React.Component {
         />
         {currPlanet === ''
           ? <p>CLIQUE EM UM PLANETA PARA MAIS INFORMAÇÕES</p>
-          : <Missions currPlanet={ currPlanet } />}
+          : <PlanetDetails currPlanet={ currPlanet } />}
       </main>
     );
   }
