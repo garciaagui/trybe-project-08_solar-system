@@ -1,16 +1,16 @@
-import MercurioImg from '../images/Mercurio.png';
-import VenusImg from '../images/Venus.png';
-import TerraImg from '../images/Terra.png';
-import MarteImg from '../images/Marte.png';
-import JupiterImg from '../images/Jupiter.png';
-import SaturnoImg from '../images/Saturno.png';
-import Uranoimg from '../images/Urano.png';
-import Netunoimg from '../images/Netuno.png';
+import mercuryImg from '../images/planet-mercury.png';
+import venusImg from '../images/planet-venus.png';
+import earthImg from '../images/planet-earth.png';
+import marsImg from '../images/planet-mars.png';
+import jupiterImg from '../images/planet-jupiter.png';
+import saturnImg from '../images/planet-saturn.png';
+import uranusImg from '../images/planet-uranus.png';
+import neptuneImg from '../images/planet-neptune.png';
 
 const Planets = [
   {
     name: 'Mercúrio',
-    image: MercurioImg,
+    image: mercuryImg,
     overview: `The smallest planet in our solar system and nearest to the Sun, 
     Mercury is only slightly larger than Earth's Moon. From the surface of 
     Mercury, the Sun would appear more than three times as large as it does 
@@ -33,7 +33,7 @@ const Planets = [
   },
   {
     name: 'Vênus',
-    image: VenusImg,
+    image: venusImg,
     overview: `It's a cloud-swaddled planet named for a love goddess, often called 
     Earth's twin. But pull up a bit closer, and Venus turns hellish. Our nearest 
     planetary neighbor, the second planet from the Sun, has a surface hot 
@@ -64,7 +64,7 @@ const Planets = [
   },
   {
     name: 'Terra',
-    image: TerraImg,
+    image: earthImg,
     overview: `Our home planet is the third planet from the Sun, and the only place we 
     know of so far that's inhabited by living things. While Earth is only the fifth 
     largest planet in the solar system, it is the only world in our solar system with 
@@ -80,7 +80,7 @@ const Planets = [
   },
   {
     name: 'Marte',
-    image: MarteImg,
+    image: marsImg,
     overview: `Mars is no place for the faint-hearted. It's dry, rocky, 
     and bitter cold. The fourth planet from the Sun, Mars is one of Earth's 
     two closest planetary neighbors (Venus is the other). Mars is one of the 
@@ -98,7 +98,7 @@ const Planets = [
   },
   {
     name: 'Júpiter',
-    image: JupiterImg,
+    image: jupiterImg,
     overview: `Jupiter is the fifth planet from our Sun and is, by far, 
     the largest planet in the solar system – more than twice as massive 
     as all the other planets combined. Jupiter's stripes and swirls are 
@@ -118,7 +118,7 @@ const Planets = [
   },
   {
     name: 'Saturno',
-    image: SaturnoImg,
+    image: saturnImg,
     overview: `Saturn is the sixth planet from the Sun and the second-largest 
     planet in our solar system. Like fellow gas giant Jupiter, Saturn is a massive 
     ball made mostly of hydrogen and helium. Saturn is not the only planet to have 
@@ -137,7 +137,7 @@ const Planets = [
   },
   {
     name: 'Urano',
-    image: Uranoimg,
+    image: uranusImg,
     overview: `The seventh planet from the Sun with the third largest 
     diameter in our solar system, Uranus is very cold and windy. 
     The ice giant is surrounded by 13 faint rings and 27 small moons 
@@ -159,7 +159,7 @@ const Planets = [
   },
   {
     name: 'Netuno',
-    image: Netunoimg,
+    image: neptuneImg,
     overview: `Dark, cold, and whipped by supersonic winds, ice giant 
     Neptune is the eighth and most distant planet in our solar system. 
     More than 30 times as far from the Sun as Earth, Neptune is the only 
