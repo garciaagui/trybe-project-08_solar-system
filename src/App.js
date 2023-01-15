@@ -22,7 +22,7 @@ class App extends React.Component {
     const { currPlanet } = this.state;
 
     return (
-      <main>
+      <main className="container-main">
         <Header />
         <SolarSystem
           changePlanet={ this.changePlanet }
