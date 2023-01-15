@@ -1,16 +1,35 @@
 import React from 'react';
 import Header from './components/Header';
 import SolarSystem from './components/SolarSystem';
-import Missions from './components/Missions';
+import PlanetDetails from './components/PlanetDetails';
 import './App.css';
 
 class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      currPlanet: '',
+    };
+  }
+
+  changePlanet = (planetName) => {
+    this.setState({
+      currPlanet: planetName,
+    });
+  }
+
   render() {
+    const { currPlanet } = this.state;
+
     return (
-      <main>
+      <main className="container-main">
         <Header />
-        <SolarSystem />
-        <Missions />
+        <SolarSystem
+          changePlanet={ this.changePlanet }
+        />
+        {currPlanet === ''
+          ? <p>CLIQUE EM UM PLANETA PARA MAIS INFORMAÇÕES</p>
+          : <PlanetDetails currPlanet={ currPlanet } />}
       </main>
     );
   }

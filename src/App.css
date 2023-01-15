@@ -13,7 +13,8 @@ h2 {
   width: 100%;
 }
 
-.container-solar-system, .container-missions {
+.container-solar-system,
+.container-missions {
   background-color: rgba(0, 0, 0, 0.568);
   display: flex;
   flex-wrap: wrap;
@@ -58,4 +59,69 @@ img {
   display: flex;
   flex-direction: column;
   padding-left: 20px;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-planet-details {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-img-features {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.container-img-features img {
+  margin-right: 25px;
+  width: 300px;
+}
+
+.container-features {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  flex-wrap: wrap;
+  height: 250px;
+  width: 600px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container-features span {
+  margin-bottom: 10px;
+}
+
+.container-feature-card {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 250px;
+}
+
+.container-feature-card section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container-feature-card span {
+  width: 100%;
+}
+
+.container-feature-card img {
+  width: 50px;
 }
